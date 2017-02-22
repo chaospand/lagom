@@ -12,8 +12,9 @@ Follow these instructions to create and run your first project:
 To create a project, invoke `mvn archetype:generate` from the command line with the following parameters (all on one line). The `archetypeVersion` parameter specifies the Lagom version (in this example, 1.3.0).  
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.lightbend.lagom -DarchetypeArtifactId=maven-archetype-lagom-java
--DarchetypeVersion=1.3.0
+mvn archetype:generate -DarchetypeGroupId=com.lightbend.lagom \
+   -DarchetypeArtifactId=maven-archetype-lagom-java \
+   -DarchetypeVersion=1.3.0
 ```
 
 When the template prompts you for POM values, accept defaults by pressing `Enter` or specify your own for:
